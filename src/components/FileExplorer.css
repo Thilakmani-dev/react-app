@@ -1,0 +1,25 @@
+.fileExplorer {
+  margin-top: 0;
+  margin-left: 10px;
+  background: white;
+  color: black;
+}
+
+.folder {
+  background: #d8d7d7;
+  width: 300px;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-block: 5px;
+}
+
+.folder button {
+  padding: 4px;
+  height: max-content;
+  border: 1px solid black;
+  background: gray;
+}

@@ -1,0 +1,28 @@
+.commentWrapper {
+  background-color: #ccc;
+  color: #000;
+  border: 1px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-block: 10px;
+  padding-inline: 10px;
+}
+
+.commentWrapper .mainContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.commentSection {
+  padding: 25px 50px;
+}
+
+.replyWrapper {
+  margin-left: 10px;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}

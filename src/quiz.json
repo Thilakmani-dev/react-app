@@ -1,0 +1,24 @@
+{
+  "quizzes": [
+    {
+      "question": "What type of language is Javascript is?",
+      "answers": ["Scripting", "High level", "Low level", "Object oriented"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Which is block scoped?",
+      "answers": ["Var", "Let", "String", "Function"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "which will help you to get all promises either of it's rejected or resolved status?",
+      "answers": [
+        "Promise.all",
+        "Promise.any",
+        "Promise.allSettled",
+        "Promise.race"
+      ],
+      "correctAnswer": 2
+    }
+  ]
+}

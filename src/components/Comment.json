@@ -1,0 +1,25 @@
+{
+  "comments": [
+    {
+      "id": 100,
+      "content": "first commment",
+      "replies": []
+    },
+    {
+      "id": 101,
+      "content": "second commment",
+      "replies": [
+        {
+          "id": 120,
+          "content": "first reply",
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "content": "third commment",
+      "replies": []
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+.parent {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.circle {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background-image: conic-gradient(green var(--percentage), #95ed9d 0);
+}
