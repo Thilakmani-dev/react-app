@@ -1,0 +1,49 @@
+.slider {
+  width: 100vw;
+  height: 200px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  max-width: 100vw;
+}
+
+.cards {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(50, auto);
+  gap: 10px;
+  max-width: 100vw;
+  overflow-x: auto;
+  padding: 5px;
+  scroll-snap-type: x;
+}
+
+.card {
+  width: 150px;
+  height: 150px;
+  max-width: 150px;
+  background: gray;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.controls button {
+  padding: 10px 20px;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}

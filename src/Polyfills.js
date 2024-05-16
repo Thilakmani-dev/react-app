@@ -100,4 +100,4 @@ function flatten(arr, depth) {
   return result;
 }
 
-console.log([10, 20, [30, 40, [50, 60]]].flatArray(1));
+console.log([10, 20, [30, 40, [50, 60]]].flatArray());

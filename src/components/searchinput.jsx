@@ -2,6 +2,7 @@ import { useRef } from "react";
 import { useDebounce } from "./hooks";
 
 import { debounce } from "./debounce";
+import MyComponent from "./ClassComponent";
 
 export const SearchInput = () => {
   const timerRef = useRef(null);
@@ -44,8 +45,9 @@ export const SearchInput = () => {
   const changeHandler = throttle(onChangeHandler);
   return (
     <div>
-      <input type="search" onChange={searchHandler} />
+      {/* <input type="search" onChange={searchHandler} /> */}
       <input type="name" onChange={changeHandler} />
+      {/* <MyComponent /> */}
     </div>
   );
 };
